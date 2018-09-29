@@ -1,0 +1,61 @@
+#top{
+background-color: orange;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+
+#meio-principal {
+	background-color: violet;
+	/*isso faz a tela ficar flexivel*/
+	display: flex;
+	/*este comando especifica onde cada coisa fica*/
+	justify-content: space-around;
+}
+
+.meio{
+background-color: lightgreen;
+border-radius: 30px;
+padding: 10px;
+margin: 10px;
+width: 200px;
+height: 200px;
+}
+
+.meio2{
+background-color: grey;
+border-radius: 30px;
+padding: 10px;
+margin: 10px;
+width: 200px;
+height: 200px;
+}
+
+.meio3{
+background-color: white;
+border-radius: 30px;
+padding: 10px;
+margin: 10px;
+width: 200px;
+height: 200px;
+}
+
+#fim{
+background-color: lightblue;
+text-align: center;
+padding: 30px;
+}
+
+.avatar {
+	/*a porcentagem ajuda a arrendodar certinho*/
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+
+}
+
+.text-final {
+	font-size: 20px;
+	font-family: comic-sans;
+	font-weight: bold;
+}
